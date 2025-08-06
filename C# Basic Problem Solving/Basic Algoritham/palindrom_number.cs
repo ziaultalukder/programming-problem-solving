@@ -18,9 +18,9 @@ namespace PalindromNumber{
 			}
 			
 			if(sum == originalNumber){
-				Console.WriteLine("palindrom a number");
+				Console.WriteLine(sum+" : palindrom a number");
 			}else{
-				Console.WriteLine("palindrom not number");
+				Console.WriteLine(sum+" : palindrom not number");
 			}
 			
 			Console.ReadLine();
