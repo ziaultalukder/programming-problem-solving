@@ -5,16 +5,14 @@ namespace PalindromNumber{
 		
 		public static void Main(string[] args){
 			
-			Console.WriteLine("input a number");
-			int number = int.Parse(Console.ReadLine());
-			int originalNumber = number;
-			int sum = 0;
+			string number = "madam";
+			int left = 0;
+			int right = number.Length;
 			
-			while(number > 0){
-				
-				int reminder = number % 10;
-				sum = (sum*10)+reminder;
-				number = number /10;
+			while(left < right){
+				if(number.ToCharArray[left]){
+					
+				}
 			}
 			
 			if(sum == originalNumber){
