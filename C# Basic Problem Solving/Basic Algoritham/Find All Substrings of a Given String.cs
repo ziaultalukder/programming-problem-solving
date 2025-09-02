@@ -18,6 +18,16 @@ namespace FindSubStringOfaGivenStrinh{
 				}
 			}
 			
+			/*another way*/
+			for(int i=0; i < value.Length; i++){
+				string d = value[i];
+				Console.WriteLine(d);
+				for(int j=i+1; j < value.Length; j++){
+					d = string.Concat(d, "", value[j]);
+					Console.WriteLine(d);
+				}
+			}
+			
 			/*way from youtube*/
 			for(int i =0; i < value.Length; i++){
 				for(int j = 0; i<value.Length -i; i++){
